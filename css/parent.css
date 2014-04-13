@@ -1,0 +1,55 @@
+/*
+ * 
+ * This file contains html level changes
+ * ie any change will affect whole page..
+ */
+@media only screen and (min-width:800px) {
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+	background-color: #FFFFFF;
+	background-image: url(/img/background-large.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	z-index: -13;
+	opacity: 0.9;
+}
+body{
+	margin: 0;
+	
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:799px) {
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+	background-color: #FFFFFF;
+	background-image: url(/img/background-image3.jpg);
+	background-repeat:no-repeat;
+	z-index: -13;
+}
+body{
+	margin: 0;
+	opacity: 0.7;
+	
+}
+}
+
+@media only screen and (max-width:479px) {
+html{
+	font-family: Arial, Helvetica, sans-serif;
+	-ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+	background-color: #FFFFFF;
+	background-image: url(/img/background-large.jpg);
+	background-repeat:no-repeat;
+	z-index: -13;
+}
+body{
+	margin: 0;
+	opacity: 0.7;
+}
+}
