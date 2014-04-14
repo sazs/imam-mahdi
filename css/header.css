@@ -1,6 +1,6 @@
 @media only screen and (min-width:800px) {
 	.header-sec {
-		height: 10%;
+		height: 7em;
 		float:inherit;
 		background-position: right center;
 		background-color:rgb(230,255,204);		
@@ -8,6 +8,8 @@
 		border-radius:25px;
 		z-index: 2;
 		opacity:1;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 	.page-header{
 		font-size: large;
@@ -15,11 +17,13 @@
 		text-decoration: none;
 		font-weight: bold;
 		color: #2F4F4F;
+		margin-left: 2em;
 	}
 	.main-bar{
-		width:90%;
+		width:93%;
 		height:auto;
 		background: #669137;
+		margin-left: 2em;
 	}
 	.nav-bar{
 		height:auto;

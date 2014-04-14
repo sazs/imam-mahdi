@@ -7,26 +7,30 @@
 	div#side-bar{
 		height: auto;
 		width: 20%;
-		background:rgb(112,186,34);
+		background:#CFD1A5;
 		float:left;
 		border: rgb(112,186,34) 1px solid;
 		border-top-width: 2em;
 		margin-right: 1em;
-		clear:left;
+		margin-left:1em;
 		position: fixed;
 	}
 	ul#main-sidemenu{
-		background:#FFFFFF;
-		padding:1em;
+		background:#CFD1A5;
+		-webkit-padding-start: 0.5em;
 	}
 	ul#main-sidemenu li {
 		display: block;
-		padding-top: 0.5em;
+		padding-bottom: 0.5em;
 		list-style-type: none;
 		font-size: medium;
+		text-decoration: none;
+	}
+	ul#main-sidemenu li a{
+		font-size: large;
 	}
 	div#content-sec{
-		width:50%;
+		width:53%;
 		background:rgb(240,240,240);
 		float:left;
 		padding-left:1em;
@@ -36,12 +40,42 @@
 	div#right-menu{
 		background:#CFD1A5;
 		width: 20%;
-		height:500px;
+		height:auto;
 		float :right;
 		margin-right: 1em;
+		border: rgb(112,186,34) 1px solid;
+		border-top-width: 2em;
+	}
+	div#right-menu ul {
+		-webkit-padding-start: 5px;
+	}
+	div#right-menu li {
 		display: block;
-		font-size: medium;
 		list-style-type: none;
+		font-size: medium;
+		margin-bottom: 1em;
+	}
+	a.fill_div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-bottom:#FFFFFF 1px solid;
+    text-decoration: none;
+	}
+	
+	.fill_div_right {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-bottom:#FFFFFF 1px solid;
+    text-decoration: none;
+    color: #000000;
+	}
+	a:hover {
+		background: #FFFFFF;
+	}
+	a.fill_div b{
+		color: #000000;	
 	}
 	footer{
 		background:rgb(112,186,34);
