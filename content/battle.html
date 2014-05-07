@@ -16,44 +16,77 @@
 		<meta name="og:url" content="" />
 		<meta name="og:description" content="" />
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="/css/parent.css" type="text/css"/ media="screen">
-		<link rel="stylesheet" href="/css/header.css" type="text/css"/ media="screen">
-		<link rel="stylesheet" href="/css/footer.css" type="text/css"/ media="screen">
-		<link rel="stylesheet" href="/css/body.css" type="text/css"/ media="screen">
-		<script type="text/javascript" src="js/"></script>
+		<link rel="stylesheet" href="../css/newheader.css" type="text/css"/ media="screen">
+		<link rel="stylesheet" href="../css/footer.css" type="text/css"/ media="screen">
+		<link rel="stylesheet" href="../css/newbody.css" type="text/css"/ media="screen">
+		<link rel="stylesheet" href="../css/parent.css" type="text/css"/ media="screen">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="../js/slider.js"></script>
+		<script type="text/javascript" src="../js/slider-effect.js"></script>
+		<script>
+			$(function() {
+				var slider = new BeaverSlider({
+					structure : {
+						container : {
+							id : "my-slider",
+							width : $(window).innerWidth(),
+							height : 210
+						}
+					},
+					content : {
+						images : ["../img/image-slider1.jpg", "../img/image-slider2.jpg", "../img/image-slider4.jpg", "../img/image-slider5.jpg", "../img/image-slider6.jpg"]
+					},
+					animation : {
+						effects : effectSets["carousel: slideOver"],
+						interval : 4000
+					}
+				});
+			});
+
+		</script>
 
 	</head>
 	<body>
 		<div id="header-page" class="header-sec">
+			<div id="topbar">
+
+			</div>
 			<div class="title-space">
 				<div class="img-title">
 					<div class="page-header">
+						<div id="my-slider" class="slider">
+
+						</div>
+						<img id="blackflag"src="../img/blackflag.png" />
+						<img id="title" src="../img/title.png" />
 						<h1 id="main-heading">Imam Mahdi</h1>
 					</div>
 				</div>
 			</div>
-			<div id="nav-bar" class="main-bar">
-				<ul id="navbar" class="nav-bar">
-					<li>
-						<a href="../index.html">Home</a>
-					</li>
-					<li>
-						<a href="/content/intro.html">Who is Imam Mahdi</a>
-					</li>
-					<li>
-						<a href="/content/arrival.html">Arrival of Imam Mahdi</a>
-					</li>
-					<li>
-						<a href="../content/misconp.html">Misconceptions</a>
-					</li>
-					<li>
-						<a href="/content/prophecy.html">Prophecies</a>
-					</li>
-					<li>
-						<a>Battle in Mahdi's (AS) Period</a>
-					</li>
-				</ul>
-			</div>
+		</div>
+		<div id="nav-bar" class="main-bar">
+			<ul id="navbar" class="nav-bar">
+				<li>
+					<a href="../index.html">Home</a>
+				</li>
+				<li>
+					<a href="../content/intro.html">Who is Imam Mahdi</a>
+				</li>
+				<li>
+					<a href="../content/prophecy.html">Prophecies</a>
+				</li>
+				<li>
+					<a href="../content/arrival.html">Signs of Arrival</a>
+				</li>
+
+				<li>
+					<a href="../content/misconp.html">Misconceptions</a>
+				</li>
+
+				<li>
+					<a id="focussed">Battle in Mahdi's (AS) Period</a>
+				</li>
+			</ul>
 		</div>
 		<div id="content" class="article">
 			<div id="content-sec" class="content-sec">
@@ -83,11 +116,11 @@
 						people throng the path. Thereupon he said: Yes, there would be amongst them people who would come with
 						definite designs and those who would come under duress and there would be travellers also, but they
 						would all be destroyed through one (stroke) of destruction. though they would be raised in different
-						states (on the Day of Resurrection). Allah would, however, raise them according to their intention.
+						states (on the Day of Resurrection). Allah would, however, raise them according to their intention. (Muslim)
 					</p>
 					<p>
 						Umm Salamah narrated that the Prophet (SAW) mentioned the army that the earth would swallow, so Umm Salamah said:
-						'Perhaps there are those among them who are averse to it." He said: "They will be 
+						'Perhaps there are those among them who are averse to it." He said: "They will be
 						resurrected on their intentions."(TIRMIZI)
 					</p>
 					<p>

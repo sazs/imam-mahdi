@@ -16,44 +16,76 @@
 		<meta name="og:url" content="" />
 		<meta name="og:description" content="" />
 		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="../css/header.css" type="text/css"/ media="screen">
+		<link rel="stylesheet" href="../css/newheader.css" type="text/css"/ media="screen">
 		<link rel="stylesheet" href="../css/footer.css" type="text/css"/ media="screen">
-		<link rel="stylesheet" href="../css/body.css" type="text/css"/ media="screen">
+		<link rel="stylesheet" href="../css/newbody.css" type="text/css"/ media="screen">
 		<link rel="stylesheet" href="../css/parent.css" type="text/css"/ media="screen">
-		<script type="text/javascript" src="js/"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="../js/slider.js"></script>
+		<script type="text/javascript" src="../js/slider-effect.js"></script>
+		<script>
+			$(function() {
+				var slider = new BeaverSlider({
+					structure : {
+						container : {
+							id : "my-slider",
+							width : $(window).innerWidth(),
+							height : 210
+						}
+					},
+					content : {
+						images : ["../img/image-slider1.jpg", "../img/image-slider2.jpg", "../img/image-slider4.jpg", "../img/image-slider5.jpg", "../img/image-slider6.jpg"]
+					},
+					animation : {
+						effects : effectSets["carousel: slideOver"],
+						interval : 4000
+					}
+				});
+			});
+
+		</script>
 
 	</head>
 	<body>
 		<div id="header-page" class="header-sec">
+			<div id="topbar">
+
+			</div>
 			<div class="title-space">
 				<div class="img-title">
 					<div class="page-header">
+						<div id="my-slider" class="slider">
+
+						</div>
+						<img id="blackflag"src="../img/blackflag.png" />
+						<img id="title" src="../img/title.png" />
 						<h1 id="main-heading">Imam Mahdi</h1>
 					</div>
 				</div>
 			</div>
-			<div id="nav-bar" class="main-bar">
-				<ul id="navbar" class="nav-bar">
-					<li>
-						<a href="../index.html">Home</a>
-					</li>
-					<li>
-						<a>Who is Imam Mahdi</a>
-					</li>
-					<li>
-						<a href="../content/arrival.html">Arrival of Imam Mahdi</a>
-					</li>
-					<li>
-						<a href="../content/misconp.html">Misconceptions</a>
-					</li>
-					<li>
-						<a href="../content/prophecy.html">Prophecies</a>
-					</li>
-					<li>
-						<a href="../content/battle.html">Battle in Mahdi's (AS) Period</a>
-					</li>
-				</ul>
-			</div>
+		</div>
+		<div id="nav-bar" class="main-bar">
+			<ul id="navbar" class="nav-bar">
+				<li>
+					<a href="../index.html">Home</a>
+				</li>
+				<li>
+					<a id="focussed">Who is Imam Mahdi</a>
+				</li>
+				<li>
+					<a href="../content/prophecy.html">Prophecies</a>
+				</li>
+				<li>
+					<a href="../content/arrival.html">Signs of Arrival</a>
+				</li>
+				<li>
+					<a href="../content/misconp.html">Misconceptions</a>
+				</li>
+
+				<li>
+					<a href="../content/battle.html">Battle in Mahdi's (AS) Period</a>
+				</li>
+			</ul>
 		</div>
 		<div id="content" class="article">
 			<div id="side-bar" class="side-bar">
@@ -97,7 +129,7 @@
 					</p>
 					<p>
 						We know that the words of  Prophet Muhammad (SAW) are collected in the form of Hadith; so in order to know about
-						 Mahdi (A.S),
+						Mahdi (A.S),
 						first we should have good knowledge about hadith it's type, it's origin etc...
 					</p>
 					<div class="readMore">
@@ -151,7 +183,7 @@
 					<h4>Inference:</h4>
 					<p>
 						As we know that, name of a person  that has figured out in prophesies does not match when the prophesies are unfolded. However, meanings of the name match or sometimes
-						qualities which the name signifies match. 
+						qualities which the name signifies match.
 					</p>
 					<p>
 						Huzoor (SAW) has nowhere said in any sahih hadith that Mahdi’s name will be Muhammad but has said
@@ -252,28 +284,44 @@
 						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>The doomsday is approaching rapidly!!!</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal Flying Donkey!!!<br /> Is it a Fighter Plane?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal Flying Donkey!!!
+						<br />
+						Is it a Fighter Plane?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal's eye!!!<br />Is it a Satellite?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal's eye!!!
+						<br />
+						Is it a Satellite?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Coming of Dajjal in the Desert IN Madina!!!<br />Is it a Gulf War?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Coming of Dajjal in the Desert IN Madina!!!
+						<br />
+						Is it a Gulf War?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Hell on the Earth!!!<br />Is it IRAQ?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Hell on the Earth!!!
+						<br />
+						Is it IRAQ?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Heavy Earthquake in east &amp; west!!!<br />Is it Japan &amp; Haiti</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Heavy Earthquake in east &amp; west!!!
+						<br />
+						Is it Japan &amp; Haiti</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Earthquake in Island ofArabian Sea!!!<br />Is it Indonesia/Sumatra?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Earthquake in Island ofArabian Sea!!!
+						<br />
+						Is it Indonesia/Sumatra?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Smoke in the Sky!!!<br />Is it Iceland Eruption?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Smoke in the Sky!!!
+						<br />
+						Is it Iceland Eruption?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Storm Dragging people in sea!!!<br />Is it Tsunami?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Storm Dragging people in sea!!!
+						<br />
+						Is it Tsunami?</b></a>
 					</li>
 				</ul>
 			</div>

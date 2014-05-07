@@ -1,0 +1,120 @@
+@media only screen and (min-width: 600px) {
+	div#topbar {
+		height: 33.33px;
+		width: auto;
+		background-color: rgb(51,51,51);
+		z-index: 1;
+		opacity: 1;
+	}
+	.header-sec {
+		height: 243px;
+		width: auto;
+		float: inherit;
+		background-color: rgb(255,255,255);
+		z-index: 2;
+		opacity: 1;
+	}
+	img#blackflag {
+		height: 8em;
+		width: 10%;
+		float: left;
+		z-index: 12;
+		position: relative;
+	}
+	img#title {
+		height: 4em;
+		width: 320px;
+		float: left;
+		z-index: 12;
+		position: absolute;
+	}
+	div .title-space {
+		height: 194.67px;
+		width: auto;
+		position: relative;
+	}
+	div.slider {
+		height: 0.3em;
+		width: auto;
+		z-index: -12;
+	}
+
+	h1#main-heading {
+		text-indent: -999999px;
+	}
+
+	ul#navbar {
+		width: 100%;
+		height: 40px;
+		background-color: rgb(51,51,51);
+		z-index: 12;
+		margin-top: 0px; 
+		margin-bottom: 0px;
+	}
+	.nav-bar {
+		-webkit-margin-before: 0px;
+		-webkit-margin-after: 0px;
+		padding-top:8px;
+		box-sizing: border-box;
+	}
+	.nav-bar li {
+		height: 32px;
+		width: 10px;
+		display: inline;
+		margin-top: 0.7em;
+		font-size: small;
+		list-style-type: none;
+		box-sizing: content-box;
+	}
+	a#focussed{
+		color: #d0cece;
+		background: rgb(102,102,102);
+		padding: .8em;
+		padding-bottom:.84em;
+		border: 1px #999999 solid;
+	}
+	
+	.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }
+        
+	.nav-bar li a:link, .nav-bar li a:visited {
+		color: #a29797;
+		padding: .8em;
+		padding-bottom:.84em;
+		text-transform: uppercase;
+		font-size: small;
+		text-decoration: none;
+		border-bottom: none;
+		box-sizing: border-box;
+		-webkit-transition-property: all;
+		-moz-transition-property: all;
+		-o-transition-property: all;
+		transition-property: all;
+		-webkit-transition-duration: 0.2s;
+		-moz-transition-duration: 0.2s;
+		-o-transition-duration: 0.2s;
+		transition-duration: 0.2s;
+	}
+
+	.nav-bar li a:hover, .nav-bar li a:focus {
+		color: #d0cece;
+		background: rgb(102,102,102);
+		border: 1px #999999 solid;
+		-webkit-transition-property: all;
+		-moz-transition-property: all;
+		-o-transition-property: all;
+		transition-property: all;
+		-webkit-transition-duration: 0.2s;
+		-moz-transition-duration: 0.2s;
+		-o-transition-duration: 0.2s;
+		transition-duration: 0.2s;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+}
+@media only screen and (max-width: 479px) {
+}
+body {
+
+}

@@ -17,73 +17,133 @@
 		<meta name="og:description" content="" />
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="/css/parent.css" type="text/css"/ media="screen">
-		<link rel="stylesheet" href="/css/header.css" type="text/css"/ media="screen">
+		<link rel="stylesheet" href="/css/newheader.css" type="text/css"/ media="screen">
 		<link rel="stylesheet" href="/css/footer.css" type="text/css"/ media="screen">
-		<link rel="stylesheet" href="/css/body.css" type="text/css"/ media="screen">
-		<script type="text/javascript" src="js/"></script>
+		<link rel="stylesheet" href="/css/newbody.css" type="text/css"/ media="screen">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="/js/slider.js"></script>
+		<script type="text/javascript" src="/js/slider-effect.js"></script>
+		<script>
+			$(function() {
+				var slider = new BeaverSlider({
+					structure : {
+						container : {
+							id : "my-slider",
+							width : $(window).innerWidth(),
+							height : 210,
+						}
+					},
+					content : {
+						images : ["/img/image-slider1.jpg", "/img/image-slider2.jpg", "/img/image-slider4.jpg", "/img/image-slider5.jpg", "/img/image-slider6.jpg"]
+					},
+					animation : {
+						effects : effectSets["carousel: slideOver"],
+						interval : 4000
+					}
+				});
+			});
 
+		</script>
 	</head>
 	<body>
 		<div id="header-page" class="header-sec">
+			<div id="topbar">
+
+			</div>
 			<div class="title-space">
 				<div class="img-title">
 					<div class="page-header">
+						<div id="my-slider" class="slider">
+
+						</div>
+
+						<img id="blackflag"src="/img/blackflag.png" />
+						<img id="title" src="/img/title.png" />
 						<h1 id="main-heading">Imam Mahdi</h1>
 					</div>
 				</div>
 			</div>
-			<div id="nav-bar" class="main-bar">
-				<ul id="navbar" class="nav-bar">
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li>
-						<a href="/content/intro.html">Who is Imam Mahdi</a>
-					</li>
-					<li>
-						<a href="/content/arrival.html">Arrival of Imam Mahdi</a>
-					</li>
-					<li>
-						<a href="/content/misconp.html">Misconceptions</a>
-					</li>
-					<li>
-						<a href="/content/prophecy.html">Prophecies</a>
-					</li>
-					<li>
-						<a href="/content/battle.html">Battle in Mahdi's (AS) Period</a>
-					</li>
-				</ul>
-			</div>
+		</div>
+		<div id="nav-bar" class="main-bar">
+			<ul id="navbar" class="nav-bar">
+				<li>
+					<a id="focussed">Home</a>
+				</li>
+				<li>
+					<a href="/content/intro.html">Imam Mahdi</a>
+				</li>
+				<li>
+					<a href="/content/prophecy.html">Prophecies</a>
+				</li>
+				<li>
+					<a href="/content/arrival.html">Signs of Arrival</a>
+				</li>
+
+				<li>
+					<a href="/content/misconp.html">Misconceptions</a>
+				</li>
+
+				<li>
+					<a href="/content/battle.html">Battle in Mahdi's (AS) Period</a>
+				</li>
+			</ul>
 		</div>
 		<div id="content" class="article">
 			<div id="side-bar" class="side-bar">
 				<ul id="main-sidemenu" class="main-side-menu">
 					<li id="sub-menu1">
-						<a href="#" class="fill_div_right" title="Who is Imam Mahdi?">Who is Imam Mahdi?</a>
+						<a href="#" class="fill_div_right" title="Who is Imam Mahdi?">Introduction</a>
 					</li>
 					<li id="sub-menu2">
-						<a href="#sub-content2" class="fill_div_right" title="Coming of Imam Mahdi">Coming of Imam Mahdi</a>
+						<a href="#sub-content2" class="fill_div_right" title="Prophecies">Prophecies</a>
 					</li>
 					<li id="sub-menu3">
-						<a href="#sub-content3" class="fill_div_right" title="Arrival of Imam Mahdi">Arrival of Imam Mahdi</a>
+						<a href="#sub-content3" class="fill_div_right" title="Signs of Arrival">Signs of Arrival</a>
 					</li>
 					<li id="sub-menu4">
 						<a href="#sub-content4" class="fill_div_right" title="Isa A.S (Jesus) & Imam Mahdi">Misconceptions</a>
 					</li>
-					<li id="sub-menu6">
-						<a href="#sub-content6" class="fill_div_right" title="Prophecies">Prophecies</a>
-					</li>
 					<li id="sub-menu7">
-						<a href="#sub-content7" class="fill_div_right" title="Battle in The Period of Imam Mahdi">Battle in The Period of Imam Mahdi</a>
+						<a href="#sub-content5" class="fill_div_right" title="Battle in The Period of Imam Mahdi">Battle in The Period of Imam Mahdi</a>
 					</li>
 				</ul>
 			</div>
 			<div id="content-sec" class="content-sec">
 				<div id="sub-content1" class="sub-article">
-					<h2>Who is Imam Mahdi?</h2>
 					<p>
-						As we all know that Hazrat Imam Mahdi is one of the greatest signs, before the last hour.(<em>Qiyamah</em>)
-						and is one of famous personalities among muslims who are eagerly waiting for his coming.
+						All praises belongs to ALLAH (SBT).He does what he wishes.No
+
+						one can question Him for anything. He does not require anybody’s
+
+						discussion or opinion. He is not constrained by anyone. He has no fear
+
+						from anyone. Indeed, All praises belongs to Allah who dominates all and
+
+						no one can ever dominate Him. (<em>Muhammad (Peace Be Upon Him)</em>).
+					</p>
+					<h2>INTRODUCTON</h2>
+					<p>
+						Today the Muslims are eagerly waiting for the coming of Imam Mahdi (AS) but
+
+						at the same time we should also know that there are quite differences among
+
+						the Muslim community relating to the identification of Imam Mahdi (AS), the
+
+						reason being some weak and fabricated narrations and some stories heard
+
+						from here and there. Therefore in this article it has been tried to clear these
+
+						misconceptions and present true things about Imam Mahdi (AS) so that each
+
+						and every individual of this Ummah shall not reject true Imam mahdi (AS) due
+
+						to his/her misconceptions and thus waiting of 1400 years going in vain.
+
+						As we all know that Hazrat Imam Mahdi is one of the greatest signs before the
+
+						last hour.(Qiyamah) and is one of famous personalities among muslims who
+
+						are eagerly waiting for his coming.
 					</p>
 					<p>
 						Many people across the world had claimed to be Mahdi but we eventually came to know that they were liars.
@@ -98,68 +158,96 @@
 					<p>
 						Now the question arises as how to identify the right Mahdi &amp; to realize the time of his coming(<em>appearance</em>)??
 					</p>
-					<p>
-						The answer to this can only be found from the person who has informed the people about Mahdi's coming i.e Prophet Muhammad (SAW)
-						, the last prophet of this world. So from his words, we can know the details of Mahdi.
-					</p>
-					<p>
-						We know that the words of Prophet Muhammad (SAW) are collected in the form Hadith; so in order to know about hazrat Mahdi (A.S),
-						first we should have good knowledge about hadith it's type, it's origin etc...
-					</p>
 					<div class="readMore">
 						<a href="/content/prophecy.html">Read More..</a>
 					</div>
 				</div>
 				<div id="sub-content2" class="sub-article">
-					<h2>Coming of Imam Mahdi</h2>
+					<h2>PROPHECIES</h2>
 					<p>
-						Some Text is being just for testing and designing purpose,
-						with <em>Mahdi emphasis</em> and some text to be i bold <b>Imam Mahdi</b>
-						something something
+						Prophecies are the knowledge of unseen. People used to form opinion
+
+						regarding the hadith related to prophecies. Hence, generally when
+
+						the 'awaited' comes, they, instead of analysing the circumstances, at the time
+
+						when the prophecies are unfolding with the actual words of Prophets, starts
+
+						analysing the circumstances with the interpretation of their 'scholars'.
+
+						Also, One cannot guarantee that the given hadith will happen in the way one
+
+						has interpreted because prophecies are the knowledge of the unseen and
+
+						before its happening one can only assume that it might happen in this way but
+
+						cannot tell with full confidence that it will happen in the way assumed.
+
+						Hence, one should only analyse the hadith related to prophecies at time when
+
+						it is unfolding as per rules laid down in Quran &amp; sahi hadith.
+
+						So, to know about imam mahdi first we must know what is hadith and
+
+						prophecy and rules to understand the prophecies.
 					</p>
 					<div class="readMore">
-						<a href="#">Read More..</a>
+						<a href="/content/prophecy.html">Read More..</a>
 					</div>
 				</div>
 				<div id="sub-content3" class="sub-article">
-					<h2>Arrival of Imam Mahdi</h2>
+					<h2>Signs of Arrival</h2>
 					<p>
-						Some Text is being just for testing and designing purpose,
-						with <em>Mahdi emphasis</em> and some text to be i bold <b>Imam Mahdi</b>
-						something something
+						Some major signs before his arrival:
 					</p>
+					<ul>
+
+						<li>
+							Hopelessness in the ummah
+						</li>
+						<li>
+							sectism &amp; Sanction on Iraq &amp; Sham
+						</li>
+						<li>
+							Death of a Caliph
+						</li>
+						<li>
+							One Major Affliction on Muslim Community.
+						</li>
+					</ul>
 					<div class="readMore">
-						<a href="#">Read More..</a>
+						<a href="/content/arrival.html">Read More..</a>
 					</div>
 				</div>
 				<div id="sub-content4" class="sub-article">
-					<h2>Isa A.S (Jesus) &amp; Imam Mahdi</h2>
+					<h2>Misconceptions</h2>
 					<p>
-						Some Text is being just for testing and designing purpose,
-						with <em>Mahdi emphasis</em> and some text to be i bold <b>Imam Mahdi</b>
-						something something
+						Some major misconceptions about imam mahdi(AS):
 					</p>
+					<ul>
+						<li>
+							mahdi emerging 1st from arab?
+						</li>
+						<li>
+							compulsory to be commander of arabs?
+						</li>
+						<li>
+							isa and mahdi - same or different??
+						</li>
+						<li>
+							mahdi to be the ruler of the entire world??
+						</li>
+					</ul>
 					<div class="readMore">
 						<a href="#">Read More..</a>
 					</div>
 				</div>
-				<div id="sub-content6" class="sub-article">
-					<h2>Prophecies</h2>
+				<div id="sub-content5" class="sub-article">
+					<h2>Battle In Mahdi(As) Period</h2>
 					<p>
-						Some Text is being just for testing and designing purpose,
-						with <em>Mahdi emphasis</em> and some text to be i bold <b>Imam Mahdi</b>
-						something something
-					</p>
-					<div class="readMore">
-						<a href="#">Read More..</a>
-					</div>
-				</div>
-				<div id="sub-content7" class="sub-article">
-					<h2>Battle in The Period of Imam Mahdi</h2>
-					<p>
-						Some Text is being just for testing and designing purpose,
-						with <em>Mahdi emphasis</em> and some text to be i bold <b>Imam Mahdi</b>
-						something something
+						HUZOOR SAW has prophecised that people of this ummah will attack
+
+						mahdi(as). who are these people?
 					</p>
 					<div class="readMore">
 						<a href="#">Read More..</a>
@@ -181,28 +269,44 @@
 						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>The doomsday is approaching rapidly!!!</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal Flying Donkey!!!<br /> Is it a Fighter Plane?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal Flying Donkey!!!
+						<br />
+						Is it a Fighter Plane?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal's eye!!!<br />Is it a Satellite?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Dajjal's eye!!!
+						<br />
+						Is it a Satellite?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Coming of Dajjal in the Desert IN Madina!!!<br />Is it a Gulf War?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Coming of Dajjal in the Desert IN Madina!!!
+						<br />
+						Is it a Gulf War?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Hell on the Earth!!!<br />Is it IRAQ?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Hell on the Earth!!!
+						<br />
+						Is it IRAQ?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Heavy Earthquake in east &amp; west!!!<br />Is it Japan &amp; Haiti</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Heavy Earthquake in east &amp; west!!!
+						<br />
+						Is it Japan &amp; Haiti</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Earthquake in Island ofArabian Sea!!!<br />Is it Indonesia/Sumatra?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Earthquake in Island ofArabian Sea!!!
+						<br />
+						Is it Indonesia/Sumatra?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Smoke in the Sky!!!<br />Is it Iceland Eruption?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Smoke in the Sky!!!
+						<br />
+						Is it Iceland Eruption?</b></a>
 					</li>
 					<li>
-						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Storm Dragging people in sea!!!<br />Is it Tsunami?</b></a>
+						<a href="http://www.islamiat-science.com/" class="fill_div" target="_blank"><b>Storm Dragging people in sea!!!
+						<br />
+						Is it Tsunami?</b></a>
 					</li>
 				</ul>
 			</div>
