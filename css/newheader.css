@@ -2,9 +2,9 @@
 	div#topbar {
 		height: 33.33px;
 		width: auto;
-		background-color: rgb(51,51,51);
+		background-color: #1a3046;
 		z-index: 1;
-		opacity: 1;
+		opacity: 0.85;
 	}
 	.header-sec {
 		height: 243px;
@@ -46,7 +46,7 @@
 	ul#navbar {
 		width: 100%;
 		height: 40px;
-		background-color: rgb(51,51,51);
+		background-color: #1a3046;
 		z-index: 12;
 		margin-top: 0px; 
 		margin-bottom: 0px;
@@ -67,11 +67,12 @@
 		box-sizing: content-box;
 	}
 	a#focussed{
-		color: #d0cece;
-		background: rgb(102,102,102);
+		color: #1a3046;
+		font-weight: bold;
+		background: #c8d0d8;
 		padding: .8em;
 		padding-bottom:.84em;
-		border: 1px #999999 solid;
+		border: 2px #1a3046 solid;
 	}
 	
 	.banner { position: relative; overflow: auto; }
@@ -79,7 +80,7 @@
         .banner ul li { float: left; }
         
 	.nav-bar li a:link, .nav-bar li a:visited {
-		color: #a29797;
+		color: #c2bab7;
 		padding: .8em;
 		padding-bottom:.84em;
 		text-transform: uppercase;
@@ -98,8 +99,9 @@
 	}
 
 	.nav-bar li a:hover, .nav-bar li a:focus {
-		color: #d0cece;
-		background: rgb(102,102,102);
+		color: #1a3046;
+		font-weight: bold;
+		background: #c8d0d8;
 		border: 1px #999999 solid;
 		-webkit-transition-property: all;
 		-moz-transition-property: all;
